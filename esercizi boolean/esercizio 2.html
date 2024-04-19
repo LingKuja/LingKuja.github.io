@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="ITA" dir="ltr">
+<html lang="ITA" dir="ltr"> <!-- ltr indica che i netorare uccidono l'anima -->
     <head>
         <link rel="icon" href="/img/PC icon w98.gif" type="image/gif" sizes="16x16">
-        <title>Esercizio 2</title>
+        <title>Esercizio 2 - SignRightUP</title>
         <meta charset="UTF-8">
     </head>
     <body>
-        
+        <h3 title="step right up, step right up, sign the fuck up">Pagina di registrazione</h3>
+        <p>aka "form"</p>
+        <hr>
+        <!-- <form action="indirizzo server dot com" method="post"> -->
+        <!-- 
+            tag "form" escluso perché non invio nulla a nessuno lol, anche se l'ho comunque messo in coda.
+            Da qui sotto per altro inizia la parte di registrazione al forum.
+        -->
+        <div><!-- in questo div raccolgo i dati di login -->
+            <label for="username">Inserire nome utente</label><br>
+            <input type="text" name="username" placeholder="scrivilo qui"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" name="pwd" placeholder="scrivi &quot;123&quot;"><br>
+            <label for="email">Inserisci e-mail</label><br>
+            <input type="email" name="email" placeholder="spam@gmail.com">
+        </div>
+        <div>
+            <textarea name="bio" rows="8" cols="80" placeholder="narrami la storia della tua vita sottoforma di musical di Broadway."></textarea>
+        </div>
+        <div> <!-- in questa area raccolgo altri dati dell'utente -->
+            <select name="regione">
+                <option value="AB">Abruzzo</option>
+                <option value="BA">Basilicata</option>
+                <option value="CA">Calabria</option>
+                <option value="CM">Campania</option>
+                <option value="ER">Emilia-Romagna</option>
+                <option value="FG">Friuli-Venezia Giulia</option>
+                <option value="LA">Lazio</option>
+                <option value="LI">Liguria</option>
+                <option value="MERDA">Lombardia</option>
+                <option value="MA">Marche</option>
+                <!-- <option value="MO">Molise</option> -->
+                <option value="PI">Piemonte</option>
+                <option value="PU">Puglia</option>
+                <option value="SA">Sardegna</option>
+                <option value="SI">Sicilia</option>
+                <option value="TO">Toscana</option>
+                <option value="TA">Trentino-Alto Adige</option>
+                <option value="UM">Umbria</option>
+                <option value="VA">Valle D'Aosta</option>
+                <option value="VE">Veneto</option>
+            </select>
+        </div>
+        <div> <!-- gruppo sanguigno e condizioni per spammargli roba fino alla fine dei tempi -->
+            <input type="checkbox" name="markeshit">
+            <label for="markeshit" ><a href="/esercizi boolean/indice esercizi.html">"Accetta i termini e condizioni"</a></label><br>
+            <p>indicare gruppo sanguigno:</p>
+            <input type="radio" id="A" name="btype" value="A">
+            <label for="A">A</label><br>
+            <input type="radio" id="B" name="btype" value="B">
+            <label for="B">B</label><br>
+            <input type="radio" id="AB" name="btype" value="AB">
+            <label for="AB">AB</label><br>
+            <input type="radio" id="0" name="btype" value="0">
+            <label for="0">0</label><br>
+            <input type="submit" onclick="alert('LOL')" value="invia">
+        </div>
+        <!-- </form> -->
     </body>
 </html>
