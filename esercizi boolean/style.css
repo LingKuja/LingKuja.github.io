@@ -25,20 +25,20 @@ header{
     border-color: #927108;
     background-color: rgb(165, 165, 165);
 }
-/* da qui inizia il CV, categoria 1: esperienze*/
-h2{
+/* da qui inizia il CV, categoria 1: esperienze/requisiti*/
+.requ{
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
 }
-/* Categoria 2: posti/nomi */
-h3{
+/* Categoria 2: esperienze */
+.expu{
     font-size: 25px; 
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Categoria 3: descrizione */
-.parag{
+.parg{
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
