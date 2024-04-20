@@ -21,8 +21,6 @@
 /* intestazione */
 header{
     text-align: center;
-    border-bottom-style: solid;
-    border-color: #927108;
     background-color: rgb(165, 165, 165);
 }
 /* da qui inizia il CV, categoria 1: esperienze/requisiti*/
@@ -41,4 +39,10 @@ header{
 .parg{
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+}
+/* avevo scordato di mettere il bordino in fondo alla pagina.*/
+.curriculo{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #927108;
 }
