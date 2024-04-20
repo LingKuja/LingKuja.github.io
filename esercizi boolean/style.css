@@ -7,13 +7,10 @@
     }
     in ordine di priorità:
     #id{
-        color: vert;
     }
     .class{
-        color: green;
     }
     htmlTAG{
-        color: grun;
     }
     background, color, width, height, border
 */
@@ -53,17 +50,46 @@
 /* referred in /esercizio 4.html/ */
 .row{
     margin: auto;
+    border-radius: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
 }
 .subject{
-    background-color:red;
+    background-color:rgb(138, 138, 138);
     display: inline-block;
-    width: 20%;
+    width: 40%;
 }
 .body{
-    background-color: blue;
+    background-color: rgb(189, 189, 255);
     display: inline-block;
-    width: 80%;
+    width: 58%;
 }
 .contenitore{
     margin: auto;
+}
+.head{
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+    padding-bottom: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 500%;
+}
+.gunther{
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+    padding-top: 10px;
+}
+.unreadmail{
+    font-size: medium;
+}
+.barracerca{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(84, 148, 173);
+    margin-top: 0px;
 }
