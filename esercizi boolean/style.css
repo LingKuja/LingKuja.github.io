@@ -1,0 +1,40 @@
+/*
+    YOOOO I COMMENTI FATTI BENE RISPETTO A QUELLA CAGATA SU HTML <!-- --> !!! SÌÌÌÌÌ
+    
+    Selettore{
+        proprietà: valore;
+        proprietà: valore;
+    }
+    in ordine di priorità:
+    #id{
+        color: vert;
+    }
+    .class{
+        color: green;
+    }
+    htmlTAG{
+        color: grun;
+    }
+    background, color, width, height, border
+*/
+.testa{
+    border-bottom-style: solid;
+    border-color: #927108;
+}
+
+.titt{
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.azzneso{
+    font-size: 20px; 
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragr{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
