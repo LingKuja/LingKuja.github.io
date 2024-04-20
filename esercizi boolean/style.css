@@ -50,3 +50,20 @@ header{
     border-color: #927108;
     padding: 8px;
 }
+/* referred in /esercizio 4.html/ */
+.row{
+    margin: auto;
+}
+.subject{
+    background-color:red;
+    display: inline-block;
+    width: 20%;
+}
+.body{
+    background-color: blue;
+    display: inline-block;
+    width: 80%;
+}
+.contenitore{
+    margin: auto;
+}
