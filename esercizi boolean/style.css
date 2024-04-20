@@ -23,6 +23,9 @@ header{
     text-align: center;
     background-color: rgb(165, 165, 165);
 }
+.accaerre{
+    border-color: #927108;
+}
 /* da qui inizia il CV, categoria 1: esperienze/requisiti*/
 .requ{
     color: goldenrod;
