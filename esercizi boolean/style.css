@@ -15,6 +15,7 @@
     background, color, width, height, border
 */
 
+
 /* intestazione */
 .testa{
     text-align: center;
@@ -48,6 +49,10 @@
     padding: 8px;
 }
 /* referred in /esercizio 4.html/ */
+.contenitore{
+    width: 1200px;
+    margin: auto;
+}
 .row{
     margin: auto;
     border-radius: 2px;
@@ -64,17 +69,17 @@
     display: inline-block;
     width: 58%;
 }
-.contenitore{
-    margin: auto;
-}
-.head{
-    width: 1200px;
-    margin: auto;
+.logo{
+    /* width: 1200px;
+    margin: auto; */
     padding: 50px;
     padding-bottom: 0px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
     font-size: 500%;
+}
+.logotext{
+    font-size: medium;
 }
 .gunther{
     width: 1200px;
@@ -86,8 +91,8 @@
     font-size: medium;
 }
 .barracerca{
-    width: 1200px;
-    margin: auto;
+    /* width: 1200px;
+    margin: auto; */
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: rgb(84, 148, 173);
